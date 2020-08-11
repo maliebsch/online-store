@@ -1,0 +1,13 @@
+.appBar {
+    background-color: yellow;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#basketIcon {
+    margin-right: 5px;
+}

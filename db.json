@@ -1,0 +1,66 @@
+{
+    "products": [{
+            "title": "shampoo maui",
+            "id": 1,
+            "price": 10,
+            "sizes": [350, 500],
+            "image_url": "maui.jpg",
+            "description": "Unlike most shampoos which start with deionized, chemically treated water as the main ingredient, Maui Moisture starts with a unique blend of 100% Pure Aloe Vera Juice as the first ingredient, followed by Coconut Water. (We use Aloe Juice to cleanse and to provide extra nourishment & moisture to the hair. Inspired by the beautiful Hawaiian Island, we have 5 different ranges for all hair types and textures to nourish, revive, strengthen, quench and restore – all with gorgeous tropical ingredients and fragrances to send your senses soring."
+        }, {
+            "title": "cocooil body oil",
+            "id": 2,
+            "price": 8,
+            "sizes": [350, 500],
+            "image_url": "cocooil.jpg",
+            "description": "COCOOIL BODY OIL is a luxurious feeling, non-greasy body oil, perfect as your daily moisturiser all year long. Combat dryness and nourish skin with certified Fairtrade cold-pressed Organic Coconut Oil, and carefully selected natural ingredients – Grape Seed Oil, full of antioxidant properties that slow down the ageing process, and Sunflower Seed Oil – rich in Vitamin E. COCOOIL BODY OIL absorbs quickly, promoting skin health and enhancing your skin’s beauty from head to toe."
+        },
+        {
+            "title": "schwarzkopf shampoo",
+            "id": 3,
+            "price": 6,
+            "sizes": [150, 350],
+            "image_url": "schwarzkopf.jpg",
+            "description": "The Mad about Curls & Waves protocols join gentle cleansing formulas with the revolutionary long-resistant Aquarine Complex. The formulas give intense moisture and strength to the hair, while providing a care shield, for touchable definition and protection against heat and breakage. Accentuating and beautifying the hair’s original pattern, it will make you Mad about Curls & Waves. The Aquarine Complex is a combination of Polyamide-1 and product-specific care ingredients, integrated into each formula according to each stage of the protocol, to provide intense moisture and improved definition. To ensure that hair benefits fully from the Aquarine Complex, it is recommended that Mad about is used as a holistic care and styling regime."
+        },
+        {
+            "title": "onne balancing body balm",
+            "id": 4,
+            "price": 8,
+            "sizes": [150, 350, 500],
+            "image_url": "onne.jpg",
+            "description": "Indulge your skin with a refreshing treatment of ONNE's Balancing Body Balm. Made of only the purest restorative, rejuvenating plant-derived ingredients, this multi-purpose skin balancing body balm is ideal for rehydrating and soothing dry, irritated skin. Potent anti-inflammatory and anti-fungal Coconut Oil and antiseptic Rosemary quietly bring the skin into balance while Aloe Vera and Cocoa Butter combine to nourish the skin deeply. Rosehip Oil moisturises the skin healing existing acne and remnant acne scars, correcting the skin. Onne Balancing Body Balm nourishes irritated skin, soothing sunburns and bites - an all-purpose balm to treat inflamed and damaged skin. Onne's Balancing Body Balm is gentle enough to use on babies and children of all ages."
+        },
+        {
+            "title": "daisy marc jacobs",
+            "id": 5,
+            "price": 80,
+            "sizes": [150, 350],
+            "image_url": "daisy.jpg",
+            "description": "Sophisticated but not too serious, Daisy Eau So Fresh sparkles with a sunny, vibrant energy. A spirited incarnation of the original Daisy, this fragrance excites the senses with a bright elegance and whimsical charm. Like the woman who wears it, Daisy Eau So Fresh inspires us to be bold and feminine, sweet and unpredictable. The scent's enticing top notes of raspberry and grapefruit sparkle on the skin like sunshine, deepening into a sensuous heart of wild rose and a musky, sophisticated finish of warm plum and cedarwood"
+        },
+        {
+            "title": "ameliorate body exfoliant",
+            "id": 6,
+            "price": 20,
+            "sizes": [350, 500],
+            "image_url": "ameliorate.jpg",
+            "description": "Express silky-smooth skin by indulging in the cleansing experience of Ameliorate Smoothing Body Exfoliant. Healthy skin and an energetic appearance is the best kept secret for achieving success. Wash away dead or dry skin cells with the help of Ameliorate Smoothing Body Exfoliant, and feel the world fall down at your feet. This cleansing bath and body product works to exfoliate skin with the help of Alpha Hydroxy Acid and LaH6 Skin Hydrating Complex restore the skin’s natural pH and moisture balance."
+        },
+        {
+            "title": "neutrogena hydro boost",
+            "id": 7,
+            "price": 11,
+            "sizes": [150, 350],
+            "image_url": "neutrogena.jpg",
+            "description": "Give your skin a hydration boost and protect the skin's natural barrier with Neutrogena Hydro Boost Water Gel. A unique oil-free moisturiser with a light texture and the long lasting, intense nourishing power of a cream. Neutr a Hydro Boost Water Gel is a unique moisturiser with a light texture and the long lasting., intense nourishing power of a cream, that absorbs instantly and keeps skin hydrated all day."
+        },
+        {
+            "title": "Vya Naturals",
+            "id": 8,
+            "price": 20,
+            "sizes": [150, 350],
+            "image_url": "vya.jpg",
+            "description": "This revolutionary serum is a light non-greasy daily use serum that helps your skin retain moisture. This formula filled with antioxidants, helps neutralize effects of pollution and environmental damage while replenishing skin's natural lipids and visibly reducing the appearance of dark spots and wrinkles."
+        }
+    ]
+}
