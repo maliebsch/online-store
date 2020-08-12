@@ -40,7 +40,7 @@ const Filter = ({ sort, size, numberOfProducts, changeSize, changeSort }) => {
           </FormControl>
         </div>
       </div>
-      <p>{numberOfProducts} products found </p>
+      <p>{numberOfProducts} products</p>
     </div>
   );
 };

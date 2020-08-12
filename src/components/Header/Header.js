@@ -19,7 +19,7 @@ const Header = () => {
         <div className={styles.basket}>
           <Button color="inherit">
             <ShoppingCartOutlinedIcon id={styles.basketIcon} />
-            Basket
+            Cart
           </Button>
         </div>
       </Toolbar>

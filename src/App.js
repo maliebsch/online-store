@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Header from './components/Header/Header';
 import Products from './components/Products/Products';
 import Filter from './components/Filter/Filter';
+import Cart from './components/Cart/Cart';
+import styles from './App.module.css';
 
 class App extends Component {
   constructor(props) {
@@ -10,10 +12,13 @@ class App extends Component {
       products: [],
       filteredProducts: [],
       size: '',
-      sort: ''
+      sort: '',
+      cartItems: []
     };
     this.changeSort = this.changeSort.bind(this);
     this.changeSize = this.changeSize.bind(this);
+    this.addToCart = this.addToCart.bind(this);
+    this.removeFromCart = this.removeFromCart.bind(this);
   }
   componentDidMount() {
     fetch('http://localhost:8000/products')
@@ -62,19 +67,54 @@ class App extends Component {
       }
     });
   }
+
+  addToCart(product) {
+    const cartItems = this.state.cartItems.slice();
+    let isProductInCart = false;
+
+    cartItems.forEach((item) => {
+      if (item.id === product.id) {
+        item.count++;
+        isProductInCart = true;
+      }
+    });
+
+    if (!isProductInCart) {
+      cartItems.push({ ...product, count: 1 });
+    }
+    this.setState({ cartItems });
+  }
+
+  removeFromCart(product) {
+    let cartItems = this.state.cartItems.slice();
+
+    if (product.count === 1) {
+      cartItems = cartItems.filter((item) => item.id !== product.id);
+    } else {
+      product.count = product.count - 1;
+    }
+
+    this.setState({ cartItems });
+  }
+
   render() {
-    const { filteredProducts, size, sort } = this.state;
+    const { filteredProducts, size, sort, cartItems } = this.state;
     return (
       <div className="App">
         <Header />
-        <Filter
-          size={size}
-          sort={sort}
-          changeSize={this.changeSize}
-          changeSort={this.changeSort}
-          numberOfProducts={filteredProducts.length}
-        />
-        <Products products={filteredProducts} />
+        <div className={styles.main}>
+          <div className={styles.mainProducts}>
+            <Filter
+              size={size}
+              sort={sort}
+              changeSize={this.changeSize}
+              changeSort={this.changeSort}
+              numberOfProducts={filteredProducts.length}
+            />
+            <Products products={filteredProducts} addToCart={this.addToCart} />
+          </div>
+          <Cart itemsInCart={cartItems} removeFromCart={this.removeFromCart} />
+        </div>
       </div>
     );
   }

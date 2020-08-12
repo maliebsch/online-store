@@ -34,7 +34,7 @@
             "title": "daisy marc jacobs",
             "id": 5,
             "price": 80,
-            "sizes": [150, 350],
+            "sizes": [100, 350],
             "image_url": "daisy.jpg",
             "description": "Sophisticated but not too serious, Daisy Eau So Fresh sparkles with a sunny, vibrant energy. A spirited incarnation of the original Daisy, this fragrance excites the senses with a bright elegance and whimsical charm. Like the woman who wears it, Daisy Eau So Fresh inspires us to be bold and feminine, sweet and unpredictable. The scent's enticing top notes of raspberry and grapefruit sparkle on the skin like sunshine, deepening into a sensuous heart of wild rose and a musky, sophisticated finish of warm plum and cedarwood"
         },
@@ -50,7 +50,7 @@
             "title": "neutrogena hydro boost",
             "id": 7,
             "price": 11,
-            "sizes": [150, 350],
+            "sizes": [100, 150],
             "image_url": "neutrogena.jpg",
             "description": "Give your skin a hydration boost and protect the skin's natural barrier with Neutrogena Hydro Boost Water Gel. A unique oil-free moisturiser with a light texture and the long lasting, intense nourishing power of a cream. Neutr a Hydro Boost Water Gel is a unique moisturiser with a light texture and the long lasting., intense nourishing power of a cream, that absorbs instantly and keeps skin hydrated all day."
         },
@@ -58,7 +58,7 @@
             "title": "Vya Naturals",
             "id": 8,
             "price": 20,
-            "sizes": [150, 350],
+            "sizes": [100, 150],
             "image_url": "vya.jpg",
             "description": "This revolutionary serum is a light non-greasy daily use serum that helps your skin retain moisture. This formula filled with antioxidants, helps neutralize effects of pollution and environmental damage while replenishing skin's natural lipids and visibly reducing the appearance of dark spots and wrinkles."
         }

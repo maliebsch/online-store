@@ -1,6 +1,6 @@
 .products {
-    max-width: 1420px;
-    margin: 10px auto;
+    width: 1420px;
+    margin: 50px;
 }
 
 .productListing {

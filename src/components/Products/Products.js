@@ -5,7 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import styles from './Products.module.css';
 
-const Products = ({ products }) => {
+const Products = ({ products, addToCart }) => {
   return (
     <div className={styles.products}>
       <ul className={styles.productListing}>
@@ -30,7 +30,12 @@ const Products = ({ products }) => {
                   </a>
                 </CardContent>
                 <CardActions>
-                  <Button className={styles.add}>Add to cart</Button>
+                  <Button
+                    className={styles.add}
+                    onClick={() => addToCart(product)}
+                  >
+                    Add to cart
+                  </Button>
                 </CardActions>
               </Card>
             </li>
